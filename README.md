@@ -25,4 +25,4 @@
 <li>React</li>
 </ul>
 <h2>Автор</h2>
-<a text-decoration="none" href="https://t.me/ronikapav" target="_blank">Написать автору</a>
+<a style="text-decoration:none" href="https://t.me/ronikapav">Написать автору</a>
