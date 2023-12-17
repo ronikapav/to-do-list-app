@@ -38,10 +38,15 @@ export class List extends Component {
         }
 
 
+        onFormSubmit(e) {
+            e.preventDefault(); 
+        }
 
+        
     render() {
         return (
             <div>
+            <form onSubmit={this.onFormSubmit}> 
             <div className="info">
                 <div className="input">
                 <input 
@@ -59,7 +64,7 @@ export class List extends Component {
                         {item}<span onClick={() => this.deleteItem(index)} className="delete-btn" title="Delete Task"/></li>
                     )}
             </ul>
-
+            </form>
             </div>
         )
     }
