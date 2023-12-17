@@ -25,4 +25,4 @@
 <li>React</li>
 </ul>
 <h2>Автор</h2>
-<a href="tg://resolve?domain=ronikapav">
+<a href="https://t.me/ronikapav">Написать автору</a>
