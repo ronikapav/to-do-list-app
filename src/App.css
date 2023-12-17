@@ -143,6 +143,10 @@ body {
       margin-right: 5px;
     }
 
+    .none {
+      text-decoration: none;
+    }
+
     @media (max-width: 500px) {
       .app {
       width: 90%;
